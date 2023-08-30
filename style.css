@@ -1,0 +1,79 @@
+      body {
+          font-family: "Josefin Sans", sans-serif, "Kanit", sans-serif,
+              "Quicksand", sans-serif, "Teko", sans-serif;
+          background-color: gray;
+          margin: 0;
+          /* Reset default margin */
+          padding: 0;
+          /* Reset default padding */
+      }
+
+      h1 {
+          font-size: 2rem;
+          /* Adjust the heading font size */
+          text-align: center;
+          /* Center align the heading */
+          margin-top: 1rem;
+          /* Add some space above the heading */
+      }
+
+      p {
+          font-size: 1rem;
+          /* Adjust the paragraph font size */
+          line-height: 1.5;
+          /* Add line spacing for better readability */
+          margin: 1rem 2rem;
+          /* Add margins to paragraphs for better spacing */
+      }
+
+      hr {
+          margin: 2rem 0;
+          /* Add space above and below the horizontal rule */
+      }
+
+      img {
+          display: block;
+          /* Make the image a block element */
+          margin: 0 auto;
+          /* Center align the image */
+          max-width: 100%;
+          /* Make sure the image doesn't exceed its container's width */
+      }
+
+      iframe {
+          display: block;
+          /* Make the iframe a block element */
+          margin: 0 auto;
+          /* Center align the iframe */
+      }
+
+      a {
+          display: block;
+          text-align: center;
+          margin-top: 1rem;
+          font-size: 3rem;
+          /* Adjust the font size to make the link bigger */
+      }
+          ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+          }
+    
+          li {
+              float: left;
+          }
+    
+          li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+          }
+    
+          li a:hover {
+              background-color: #111;
+          }
